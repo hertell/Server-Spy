@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://serverspy/locale/ui.ent">
+
+<overlay id="serverspyui" 
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+ 
+<script type="application/x-javascript" src="chrome://serverspy/content/serverspy.js" />
+
+ <vbox id="identity-popup-content-box">
+   <label value="(&appname;)" id="serverspy_svlabel" class="identity-popup-description" insertafter="identity-popup-encryption" style="margin-top:1em;" />
+ </vbox>
+ 
+ <hbox id="identity-box">
+   <image id="serverspy_svicon" insertbefore="identity-icon-labels" />
+ </hbox>
+
+ <statusbar id="status-bar">
+  <statusbarpanel id="serverspy_sblabel" label="(&appname;)" tooltiptext="" onclick="serverspy_about()" />
+ </statusbar>
+ 
+</overlay>

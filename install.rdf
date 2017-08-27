@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>ServerSpy@jacquet.eu.org</em:id>
+    <em:version>0.2.3.1-signed</em:version>
+    <em:type>2</em:type>
+   
+    <!-- Target Application this extension can install into, 
+         with minimum and maximum supported versions. --> 
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>20.*</em:minVersion>
+        <em:maxVersion>22.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+   
+    <!-- Front End MetaData -->
+    <em:name>Server Spy</em:name>
+    <em:description>Indicates what brand of HTTP server runs on the visited site.</em:description>
+    <em:creator>Christophe Jacquet</em:creator>
+    <em:homepageURL>http://www.jacquet80.eu/mozilla/exts/ServerSpy/</em:homepageURL>
+    <em:iconURL>chrome://serverspy/content/serverspy-32.png</em:iconURL>
+    <em:optionsURL>chrome://serverspy/content/options.xul</em:optionsURL>
+
+    <!-- New localization infrastructure starting with Firefox 3 -->
+    <em:localized>
+      <Description>
+        <em:locale>fr</em:locale>
+        <em:name>Server Spy</em:name>
+        <em:description>Indique le type de serveur HTTP utilisé sur le site visité.</em:description>
+        <em:creator>Christophe Jacquet</em:creator>
+        <em:homepageURL>http://www.jacquet80.eu/mozilla/exts/ServerSpy/</em:homepageURL>
+        <em:iconURL>chrome://serverspy/content/serverspy-32.png</em:iconURL>
+      </Description>
+    </em:localized>
+  </Description>      
+</RDF>

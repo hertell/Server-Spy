@@ -1,0 +1,6 @@
+﻿<!ENTITY appname			"Server Spy">
+<!ENTITY preferences		"Préférences">
+<!ENTITY show.icon			"Afficher une icône dans la barre d'adresse">
+<!ENTITY show.in.bar		"Afficher le nom dans la barre d'état/d'extensions">
+<!ENTITY copyright.month	"novembre 2010">
+<!ENTITY about.last			"Page courante servie par :">

@@ -1,0 +1,6 @@
+content     serverspy								chrome/chromeFiles/content/
+
+locale		serverspy	en-US	chrome/chromeFiles/locale/en-US/
+locale		serverspy	fr-FR	chrome/chromeFiles/locale/fr-FR/
+
+overlay		chrome://browser/content/browser.xul	chrome://serverspy/content/overlay.xul

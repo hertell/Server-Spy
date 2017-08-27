@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://serverspy/locale/ui.ent">
+
+<overlay id="serverspyui" 
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+ <statusbar id="status-bar">
+  <statusbarpanel id="serverspy_svlabel" label="(&appname;)" tooltiptext="" onclick="serverspy_about()" />
+ </statusbar>
+</overlay>

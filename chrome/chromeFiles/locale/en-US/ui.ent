@@ -1,0 +1,6 @@
+<!ENTITY appname			"Server Spy">
+<!ENTITY preferences		"Preferences">
+<!ENTITY show.icon			"Show icon in address bar">
+<!ENTITY show.in.bar		"Show label in status/add-on bar">
+<!ENTITY copyright.month	"November 2010">
+<!ENTITY about.last			"Current page served up by:">
